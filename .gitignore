@@ -1,4 +1,9 @@
 *.iml
 .idea
+<<<<<<< HEAD
 */target/**
 /.metadata/
+=======
+**/target/**
+**/.DS_Store
+>>>>>>> 6d52cb947793e03b08a0467393b15293fa5b8d15

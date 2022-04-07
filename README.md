@@ -1,30 +1,9 @@
 ## Java Goof
 
-A vulnerable demo application, initially based on [Ben Hassine](https://github.com/benas/)'s [TodoMVC](https://github.com/benas/todolist-mvc). 
+This is a collection of Java demo apps that are vulnerable in different ways.
 
-The goal of this application is to demonstrate through example how to find, exploit and fix vulnerable Maven packages. 
+It's divided into modules, each one having its own README:
 
-This repo is still incomplete, a work in progress to support related presentations.
-
-
-## Build and run Todolist MVC
-
-(from the original README)
-
-*Note that to run locally, you need JDK 8.*
-
-1.  Check out the project source code from github : `git clone https://github.com/snyk/java-goof.git`
-2.  Open a terminal and run the following command from root directory : `mvn install`
-3.  Choose a web framework to test and run it. For example : `cd todolist-web-struts && mvn tomcat7:run` (note: this example currently only copied the Struts demo)
-4.  Browse the following URL : `localhost:8080/`
-5.  You can register a new account or login using the following credentials : foo@bar.org / foobar
-
-## Running with docker-compose
-```bash
-docker-compose up --build
-docker-compose down
-```
-
-## License
-This repo is available released under the [MIT License](http://opensource.org/licenses/mit-license.php/).
-# java-goof
+* [Todolist Goof](todolist-goof/README.md)
+* [Log4Shell Goof](log4shell-goof/README.md)
+* [Quickstart for running both Todolist with Log4Shell in Kubernetes](README-K8S.md)
